@@ -1,9 +1,11 @@
 {
-  "name": "vue-cc",
+  "name": "vue3-cc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": "./index.js",
-  "author": "",
+  "bin": {
+    "v3cc": "./index.js"
+  },
+  "author": "Damir Secki",
   "license": "ISC"
 }
