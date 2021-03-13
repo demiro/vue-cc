@@ -10,7 +10,7 @@ if (process.argv.length < 3) {
   console.log(componentName);
   const path = "./" + componentName + "/" + componentName;
 
-  fs.mkdir("./" + componentName, function (err) {
+  fs.mkdir("./src/components/" + componentName, function (err) {
     if (err) {
       console.log(err.message);
     } else {
